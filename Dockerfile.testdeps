@@ -4,7 +4,7 @@ LABEL description="Debian Stable Slim image with Racket test dependencies pre-in
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y openssl ca-certificates libfontconfig1-dev libpango1.0-dev libcairo2-dev libjpeg-dev libturbojpeg0-dev gcc && \
+    apt-get install -y openssl ca-certificates libfontconfig1-dev libpango1.0-dev libcairo2-dev libjpeg-dev libturbojpeg0-dev gcc sqlite && \
     apt-get clean
 
 CMD ["bash"]
