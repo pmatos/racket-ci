@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM debian:buster-slim
 LABEL maintainer="pmatos@linki.tools"
 LABEL description="Debian Stable Slim image with Racket test dependencies pre-installed. Mostly used for Racket CI."
 
